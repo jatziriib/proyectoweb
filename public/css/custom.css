@@ -1,0 +1,77 @@
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+
+.section{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+
+.section--blue{
+    background-color: rgb(151, 245, 212);
+    box-shadow: 0px 1.5px 10px 0px rgb(205, 199, 199);
+}
+.section__title--white{
+    color: #ffffffff;
+}
+.container-footer{
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1.5px 10px 0px rgb(218, 86, 86);
+}
+.container-copy{
+    background-color:rgb(218, 86, 86);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*Navbar */
+
+/*cards*/  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.card {
+    width: 900px;
+    margin: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+
+.card img {
+    width: 300px; /* ajusta el tamaño de la imagen según sea necesario */
+    height: 300px;
+    object-fit: cover; /* para asegurar que la imagen no se deforme */
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    font-size: 20px;
+    color: rgb(149, 137, 137);
+}
